@@ -1,0 +1,13 @@
+@media screen and (max-width:600px){
+    .nav-container{
+        margin: 20px;
+    }
+    .menu-items a{
+        display: none;
+    }
+    .menu-items>.fa-solid{
+        display: block;
+        font-size: 25px;
+        cursor: pointer;
+    }
+}
