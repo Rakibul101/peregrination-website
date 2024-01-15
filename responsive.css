@@ -10,4 +10,15 @@
         font-size: 25px;
         cursor: pointer;
     }
+    .banner-container{
+        margin: 20px;
+    }
+    .banner-content{
+        height: 100%;
+    }
+    .banner-items-box{
+        flex-direction: column;
+        width: 287px;
+        margin-bottom: 20px;
+    }
 }
