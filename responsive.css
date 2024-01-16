@@ -32,6 +32,9 @@
     .destination-container{
         margin: 20px;
     }
+    .destination-title{
+        font-size: 32px;
+    }
     .destination-description{
         width: 90%;
         text-align: center;
@@ -78,13 +81,17 @@
         grid-column: 1/span 1;
         grid-row: 7/span 1;
     }
+    
+    .choose-container{
+        margin: 20px;
+    }
     .choose-description {
-        width: 450px;
+        width:100%;
     }
     .cards-container{
         grid-template-columns: 1fr;
         grid-template-rows:repeat(3, 1fr);
-        margin: 20px;
+        /* margin: 20px; */
 
     }
     
@@ -101,5 +108,33 @@
     .card-3 {
         grid-column: 1/span 1;
         grid-row: 3/span 1;
+    }
+    .newsletter-container{
+        flex-direction: column;
+        margin: 20px;
+    }
+    #input-box{
+        width: 100%;
+    }
+    #input-mail{
+        width: 100%;
+    }
+    #hr{
+        width: 100%;
+    }
+    .sub-button{
+        width: 100%;
+    }
+    .picture-container img{
+        width: 100%;
+        height: 100%;
+        
+    }
+    .card-picture{
+        bottom: 18%;
+        right: 2%;
+    }
+    .newsletter-content{
+        padding-left: 20px;
     }
 }
