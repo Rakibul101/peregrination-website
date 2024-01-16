@@ -160,11 +160,19 @@
     .newsletter-content {
         padding-left: 20px;
     }
+    .extra-section-container{
+        flex-direction: column;
+    }
+    .extra-cards>img{
+        width: 100%;
+       height: 100%;
+    }
     .footer-container{
-        margin: 20px;
+    width: 100%;
     }
     .footer-items {
         width: 100%;
+        padding: 20px;
     }
 
     .footer-hr {
